@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Rosario Apartments</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+        .container { width: 90%; margin: auto; padding: 20px; }
+        .listing { border: 1px solid #ddd; border-radius: 8px; padding: 10px; margin: 10px 0; }
+        .listing img { width: 100%; border-radius: 8px; }
+        button { background: #27ae60; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #219150; }
+        .amenities ul { list-style: none; padding: 0; }
+        .amenities li { padding: 5px 0; }
+        footer { background: #f4f4f4; text-align: center; padding: 10px; margin-top: 20px; }
+        form { display: flex; flex-direction: column; }
+        form input, form textarea { padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Del Rosario Apartments</h1>
+    <p>Modern Living in the Heart of Makati</p>
+</header>
+
+<div class="container">
+    <h2>Available Units</h2>
+
+    <div class="listing">
+        <img src="https://via.placeholder.com/800x400" alt="Apartment 1">
+        <h3>2 Bedroom Deluxe</h3>
+        <p>₱35,000/month • 70 sqm</p>
+        <button id="apply-btn-1">Apply Now</button>
+    </div>
+
+    <div class="listing">
+        <img src="https://via.placeholder.com/800x400" alt="Apartment 2">
+        <h3>1 Bedroom Loft</h3>
+        <p>₱25,000/month • 45 sqm</p>
+        <button id="apply-btn-2">Apply Now</button>
+    </div>
+
+    <h2>Amenities</h2>
+    <div class="amenities">
+        <ul>
+            <li>🏊 Swimming Pool</li>
+            <li>💪 Gym</li>
+            <li>🐶 Pet-Friendly</li>
+            <li>🚗 Secure Parking</li>
+        </ul>
+    </div>
+
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" id="contact-submit">Send Message</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2025 Del Rosario Apartments | For Demo Purposes Only</p>
+</footer>
+
+</body>
+</html>
